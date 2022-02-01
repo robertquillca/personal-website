@@ -5,6 +5,7 @@
 }
 
 .nav-list {
-    display: inline-block;
+    display: inline-flex;
     list-style: none;
+    gap: 16px;
 }
