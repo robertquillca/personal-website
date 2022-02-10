@@ -1,127 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Robert Quillca </title>
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <link rel="stylesheet" href="./css/index.css">
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robert Quillca</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
     <header>
-        <nav class='nav'>
-          <a href="#">
-            <img src="./img/robert-perfil.jpg" alt="Robert Quillca" width="64px" />
-          </a>
-          <ul class="nav-list">
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <article class="profile">
-            <h1>Robert Quillca</h1>
-            <p>
-              Frontend web development student, currently taking classes for webcam development. Codigo' web development student.
-            </p>
-            <div>
-              <button>CV</button>
-              <button>Portafolio</button>
-            </div>
-            <div>
-              <img src="./img/robert-perfil.jpg" alt="Robert Quillca" width="320px">
-            </div>
-          </article>
-          <form action="/">
+      <nav class="nav">
+        <a href="#">
+          <img
+            src="./img/robert-perfil.jpg"
+            alt="Robert Quillca"
+            width="64px"
+          />
+        </a>
+        <ul class="nav-list">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="profile">
+        <h1>Robert Quillca</h1>
+        <p>
+          Frontend web development student, currently taking classes for webcam
+          development. Codigo' web development student.
+        </p>
+        <div>
+          <button>CV</button>
+          <button>Portafolio</button>
+        </div>
+        <div>
+          <img
+            src="./img/robert-perfil.jpg"
+            alt="Robert Quillca"
+            width="320px"
+          />
+        </div>
+      </article>
+      <form action="/">
+        <h2>Registration</h2>
 
-            <h2>Registration</h2>
-      
-            <h4>Personal information</h4>
-            <label for="Name">Name</label>
-            <input type="text" id="name" placeholder="Pepito" minlength="6" maxlength="8">
-            <hr>
-            <label for="Username">Last name</label>
-            <input type="text" id="lastname" placeholder="Perez">
-            <hr>
-            <label for="Username">Email</label>
-            <input type="text" id="email" placeholder="nombre@gmail.com">
-            <hr>
-              <label for="Username">Phone</label>
-            <input type="number" id="phone" placeholder="969 696 969" minlength="9" maxlength="9">
-            <hr>
-            <label for="Username">Birthday</label>
-            <input type="date" id="birthday" placeholder="day/month/year">
-            <hr>
-              
-            <input type="radio" name="sex" id="sex" placeholder="male">
-            <label for="male">Male</label>
-            <input type="radio" name="sex" id="sex" placeholder="female">
-            <label for="male">Female</label>
-            <input type="radio" name="sex" id="sex" placeholder="binary">
-            <label for="male">Binary</label>
-            <hr>
-      
-            <label for="grado de instruction">Grade degree</label>
-            <select name="selection" id="">
-                <option value="none">--select one--</option>
-                <option value="kinder">kinder</option>
-                <option value="elementary">elementary</option>
-                <option value="highschool">highschool</option>
-                <option value="undergraduated">undergraduated</option>
-                <option value="bachelor">Bachelor</option>
-                <option value="doctor">Doctor</option>
-            </select>
-            <hr>
-      
-            <!--programming languages-->
-            <h4>Languages</h4>
-            <input type="checkbox" id="Html5" name="Html5"checked><label for="Html5">Html5</label>
-            <input type="checkbox" id="css" name="css"><label for="css">Css3</label> 
+        <h4>Personal information</h4>
+        <label for="Name">Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Pepito"
+          minlength="6"
+          maxlength="8"
+        />
+        <hr />
+        <label for="Username">Last name</label>
+        <input type="text" id="lastname" placeholder="Perez" />
+        <hr />
+        <label for="Username">Email</label>
+        <input type="text" id="email" placeholder="nombre@gmail.com" />
+        <hr />
+        <label for="Username">Phone</label>
+        <input
+          type="number"
+          id="phone"
+          placeholder="969 696 969"
+          minlength="9"
+          maxlength="9"
+        />
+        <hr />
+        <label for="Username">Birthday</label>
+        <input type="date" id="birthday" placeholder="day/month/year" />
+        <hr />
 
-            
-            <input type="checkbox" id="bootstrap" name="bootstrap"><label for="bootstrap">Bootstrap</label>
-            <input type="checkbox" id="javascript" name="javascript"><label for="javascript">Javascript</label>
-            <input type="checkbox" id="python" name="python"><label for="python"
-            
-            >Python</label>
-            <input type="checkbox" id="c++" name="c++"><label for="ruby">C++</label>
-            
-            <hr>
-            <label for="color">Select your favourite color:</label><input type="color" name="color" id="color">
-            <hr>
-            <label for="Username">Username</label><input type="text" id="user" placeholder="pepitope">
-            <hr>
-            <label for="Username">Password</label><input type="text" id="password" placeholder="password">
-            <hr>
-            <input type="file" name="uploaded" id="file">
-            <hr>
-            <input type="submit" value="register">
-            <input type="reset" value="clear">
-            <button>Send form</button>
-            <hr>
-          </form>
-          <footer>
-            <a href=""></a>
-            Robert Quillca. &copy; 2021
-        </footer>
-      </main>
-</body>
+        <input type="radio" name="sex" id="sex" placeholder="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="sex" placeholder="female" />
+        <label for="male">Female</label>
+        <input type="radio" name="sex" id="sex" placeholder="binary" />
+        <label for="male">Binary</label>
+        <hr />
 
+        <label for="grado de instruction">Grade degree</label>
+        <select name="selection" id="">
+          <option value="none">--select one--</option>
+          <option value="kinder">kinder</option>
+          <option value="elementary">elementary</option>
+          <option value="highschool">highschool</option>
+          <option value="undergraduated">undergraduated</option>
+          <option value="bachelor">Bachelor</option>
+          <option value="doctor">Doctor</option>
+        </select>
+        <hr />
 
+        <!--programming languages-->
+        <h4>Languages</h4>
+        <input type="checkbox" id="Html5" name="Html5" checked /><label
+          for="Html5"
+          >Html5</label
+        >
+        <input type="checkbox" id="css" name="css" /><label for="css"
+          >Css3</label
+        >
 
+        <input type="checkbox" id="bootstrap" name="bootstrap" /><label
+          for="bootstrap"
+          >Bootstrap</label
+        >
+        <input type="checkbox" id="javascript" name="javascript" /><label
+          for="javascript"
+          >Javascript</label
+        >
+        <input type="checkbox" id="python" name="python" /><label for="python"
+          >Python</label
+        >
+        <input type="checkbox" id="c++" name="c++" /><label for="ruby"
+          >C++</label
+        >
 
-
-
-
-
-
-
-
-
-
+        <hr />
+        <label for="color">Select your favourite color:</label
+        ><input type="color" name="color" id="color" />
+        <hr />
+        <label for="Username">Username</label
+        ><input type="text" id="user" placeholder="pepitope" />
+        <hr />
+        <label for="Username">Password</label
+        ><input type="text" id="password" placeholder="password" />
+        <hr />
+        <input type="file" name="uploaded" id="file" />
+        <hr />
+        <input type="submit" value="register" />
+        <input type="reset" value="clear" />
+        <button>Send form</button>
+        <hr />
+      </form>
+      <footer>
+        <a href=""></a>
+        Robert Quillca. &copy; 2021
+      </footer>
+    </main>
+  </body>
 </html>
