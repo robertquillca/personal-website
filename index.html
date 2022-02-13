@@ -45,10 +45,12 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
+
   <body class="body">
+
     <header class="header">
       <nav class="header-nav">
-        <a href="#pefil" class="header-nav__link-logo-container">
+        <a href="#profile" class="header-nav__link-logo-container">
           <img
             src="./img/robert-perfil.jpg"
             alt="Logo Robert Quillca"
@@ -57,41 +59,43 @@
           />
         </a>
         <ul class="header-nav__link-list">
+          
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Profile</a>
+            <a href="#profile" class="header-nav__link">Profile</a>
           </li>
+
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Experience</a>
+            <a href="#experience" class="header-nav__link">Experience</a>
           </li>
+
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Skills</a>
+            <a href="#skills" class="header-nav__link">Skills</a>
           </li>
+
           <li class="header-nav__link-item">
-            <a href="#" class="header-nav__link">Contact</a>
+            <a href="#contact" class="header-nav__link">Contact</a>
           </li>
+
         </ul>
       </nav>
     </header>
+
     <main class="main">
       <article class="profile" id="#profile">
-        <div class="perfile__container">
+        <div class="profile__container">
           <div class="profile__info">
             <h1 class="profile__info-tittle">Robert Quillca</h1>
             <p class="profile__info-description">
-              Frontend web development student, currently taking classes for
-              webcam development. Codigo' web development student.
+              Hi there! my name is Matías Nuccetelli but everybody calls me: “Nuzze”. I'm a 21 years old Software developer born in La Plata, Buenos Aires.
+              I love the web-world since I'm a child (I think it inspired me when I saw the movie: "The Social Network").
+              At the age of 15 when I was at high-school, I started coding in HTML & CSS, and I was so very excited about these technologies, so at 17, I started programming in JavaScript and my mind started blowing.
             </p>
-            <div class="perfil__ingo">
-              <button class="perfil__info-button">CV</button>
-              <button class="perfil__info-button">Portafolio</button>
+
+            <div class="profile__info-link-container">
+              <a href="#" class="profile__info-link">CV</a>
+              <a href="#" class="profile__info-link">Portafolio</a>
             </div>
-            <div class="perfi__pho">
-              <img
-                src="./img/robert-perfil.jpg"
-                alt="Robert Quillca"
-                width="320px"
-                class="perfil__photo"
-              />
+
             </div>
           </div>
         </div>
@@ -116,19 +120,7 @@
         <input type="text" id="email" placeholder="nombre@gmail.com" />
         <hr />
         <label for="Username">Phone</label>
-        <input
-          type="number"
-          id="phone"
-          placeholder="969 696 969"
-          minlength="9"
-          maxlength="9"
-        />
-        <hr />
-        <label for="Username">Birthday</label>
-        <input type="date" id="birthday" placeholder="day/month/year" />
-        <hr />
 
-        
 
        
         <input type="file" name="uploaded" id="file" />
