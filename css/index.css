@@ -186,7 +186,7 @@
   text-align: center;
 }
 
-.experiences {
+.experience__experiences {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
