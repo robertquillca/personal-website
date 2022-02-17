@@ -22,11 +22,15 @@
     <meta property="twitter:description" content="Web Personal Responsiva donde el profesional detalla lo más relevante de su carrera."/>
     <meta property="twitter:image" content="#" />
 
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
 
   <body class="body">
+    
     <header class="header">
       <nav class="header-nav">
         <a href="#profile" class="header-nav__link-logo-container">
@@ -35,7 +39,6 @@
         <label for="menu" class="header-nav__menu-icon">
           <i class="fas fa burger"></i>
         </label>
-
         <ul class="header-nav__link-list">
           <li class="header-nav__link-item">
             <a href="#profile" class="header-nav__link">Profile</a>
@@ -73,19 +76,26 @@
             </div>
           </div>
 
-          <div class="profile__cover-image animate__animated animate__fadeInLeft">
+          <div class="profile__cover-image animate__animated animate__fadeInRight">
             <figure class="profile__image-container">
-              <img src="./img/robert-perfil.jpg" alt="Robert Quillca" width="320px" class="profile__image"/>
+              <img src="./img/robert-perfil.jpg" alt="Robert Quillca" class="profile__image"/>
             </figure>
           </div>
         </div>
       </article>
 
+      <section class="wave-separator animate__animated  animate__fadeInUp">
+        <figure class="wave-separator__wave-container">
+          <img src="./img/wave.svg" alt="Wave separator" class="wave-separator__wave" />
+        </figure>
+      </section>
+
       <section class="experience animate__animated animate__fadeInUp" id='experience'>
         <div class="experience-container">
           <h2 class="experience__tittle">Professional experience</h2>
           <div class="experience__experiences">
-            <section class="experiences__experience">
+
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -94,7 +104,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -103,7 +113,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -112,7 +122,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -121,7 +131,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -130,7 +140,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -139,7 +149,7 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
+            <section class="experience__experience">
               <h4 class="experience__date">October 2021, present</h4>
               <h3 class="experience__company">Mandü</h3>
               <h4 class="experience__role">Software Engineer Trainee</h4>
@@ -148,18 +158,16 @@
                   <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
                 </ul>
             </section>
-            <section class="experiences__experience">
-              <h4 class="experience__date">October 2021, present</h4>
-              <h3 class="experience__company">Mandü</h3>
-              <h4 class="experience__role">Software Engineer Trainee</h4>
-                <ul class="experience__activities">
-                  <li class="experience__activity">Matenimiento de Web: Actualización de dineño, optimización y adición de funcionalidades.</li>
-                  <li class="experience__activity">Maquetación Web de diseños del Figma en Laravel.</li>
-                </ul>
-            </section>
+          
             
           </div>
         </div>
+      </section>
+
+      <section class="wave-separator wave-separator--r-180deg">
+        <figure class="wave-separator__wave-container">
+          <img src="./img/wave.svg" alt="Wave separator" class="wave-separator__wave" />
+        </figure>
       </section>
 
       <section class="projects">
@@ -168,184 +176,214 @@
           <div class="projects__projects">
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
             <article class="projects__project">
               <figure class="projects__project-image-container">
-                <img src="" alt="" class="projects__project-image">
+              <img src="https://i.postimg.cc/G35Z1CMy/learning-technology-acgd.png" 
+                alt="project view" class="projects__project-image">
               </figure>
               <div class="projects__project-data">
-                <h2 class="projects__project-data-tittle"></h2>
-                <h3 class="projects__project-data-core-technology"></h3>
-                <h4 class="projects__project-data-technologies"></h4>
-                <p class="projects__project-data-about"></p>
+                <h2 class="projects__project-data-tittle">learning-technology-acgd</h2>
+                <h3 class="projects__project-data-core-technology">Core: JavaScript</h3>
+                <h4 class="projects__project-data-technologies">Tecnologías: JavaScript, CSS, HTML, Normalize.css, Font
+                  Awesome, Google Fonts</h4>
+                <p class="projects__project-data-about">Página de Aprendizaje de Tecnología, donde podrás adquirir cursos. La página muestra información
+                  relevante del curso. Asimismo, cuenta con un formulario de Newsletter.</p>
               </div>
               <div class="projects__project-button-container">
-                <a href="" class="projects__project-button projects__project-button--bg-gold"></a>
-                <a href="" class="projects__project-button"></a>
+                <a href="#" class="projects__project-button projects__project-button--bg-gold">Demo</a>
+                <a href="#" class="projects__project-button">Code</a>
               </div>
             </article>
+         
           </div>
         </div>
       </section>
       
-      <section class="habilities animate__animate__animated animate__flipInx">
+      <section class="habilities animate__animate__animated animate__flipInx" id="habilities">
         <div class="habilities-container">
-          <h2 class="habilities__tittle"></h2>
+          <h2 class="habilities__tittle">Professional Skills</h2>
           <ul class="habilities__habilities-list">
             <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
-            <li class="habilities__hability">React</li>
+            <li class="habilities__hability">JavaScript</li>
+            <li class="habilities__hability">C++</li>
+            <li class="habilities__hability">Bootstrap</li>
+            <li class="habilities__hability">MySql</li>
+            <li class="habilities__hability">Python</li>
+            <li class="habilities__hability">SEO</li>
+            <li class="habilities__hability">Node.js</li>
+            <li class="habilities__hability">Git</li>
+            <li class="habilities__hability">Mongo</li>
+            <li class="habilities__hability">C</li>
+            <li class="habilities__hability">Scrum</li>
+            <li class="habilities__hability">Sass</li>
+            <li class="habilities__hability">Typescript</li>
+            <li class="habilities__hability">Html</li>
+            <li class="habilities__hability">Css</li>
+            <li class="habilities__hability">Blockchain</li>
+            <li class="habilities__hability">Solidity</li>
           </ul>
         </div>
       </section>
 
       <section class="wave-separator animate__aniamated animate__fadeInUp">
         <figure class="wave-separator__wave-container">
-          <img src="" alt="" class="wave-separator__wave">
+          <img src="./img/wave.svg" alt="wave separator" class="wave-separator__wave"/>
         </figure>
       </section>
       
       <section class="contact animate__animated animate__rotateIn">
         <div class="contact-container">
           <h2 class="contact__tittle"></h2>
-          <form action="" class="contact__form">
-            <input type="text" class="contact__form-input">
-            <input type="text" class="contact__form-input">
-            <input type="text" class="contact__form-input">
-            <textarea name="" id="" cols="30" rows="10" class="contact-form-input"></textarea>
-            <button class="contact__form-button"></button>
+          <form action="/" class="contact__form">
+            <input type="text" placeholder="Name" name="name" class="contact__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+            title="There isn't accepted special caracters and numbers">
+            <input type="email" placeholder="Email" name="email" class="contact__form-input" required>
+            <input type="number" id="phone" placeholder="phone" name="phone" class="contact__form-input"
+            min="000000000" max="000000000" required>
+            <textarea placeholder="Message" name="message" cols="30" rows="10" class="contact-form-input" required></textarea>
+            <button class="contact__form-button">Get started Code!</button>
           </form>
         </div>
       </section>
@@ -354,32 +392,42 @@
     <footer class="footer animate__animated animate__fadeInDown">
       <div class="footer-nav">
         <ul class="footer-nav__link-list">
+
           <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
+            <a href="www.github/robertquillca" class="footer-nav__link">
+              <img src="./img/github.png" alt="Github" class="footer-nav__link-image">
+            </a>
           </li>
           <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
+            <a href="www.linkedin.com/user/robertquillca" class="footer-nav__link">
+              <img src="./img/linkedin.png" alt="Linkedin" class="footer-nav__link-image">
+            </a>
           </li>
           <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
+            <a href="web.facebook.com/robertquillcaa" class="footer-nav__link">
+              <img src="./img/facebook.png" alt="Linkedin" class="footer-nav__link-image">
+            </a>
           </li>
           <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
+            <a href="" class="footer-nav__link">
+              <img src="./img/whatsapp.png" alt="Whatsapp" class="footer-nav__link-image">
+            </a>
           </li>
           <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
-          </li>
-          <li class="footer-nav__link-item">
-            <a href="" class="footer-nav__link-image"></a>
+            <a href="mailto:robertquillca@gmail.com" class="footer-nav__link">
+              <img src="./img/email.png" alt="Email" class="footer-nav__link-image">
+            </a>
           </li>
         </ul>
         <h2 class="footer-nav__credits">
-          <a href="" class="footer-nav__credits-author"></a>
+          Copyright &copy; 2022
+          <a href="#profile" class="footer-nav__credits-author">Made with ❤ in my room</a>
+          All rights reserved
         </h2>
       </div>
     </footer>
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
     crossorigin="anonymous"></script>
   </body>
 </html>
