@@ -576,7 +576,7 @@
 
 /* Footer section  */
 .footer {
-  background-color: var(--inverse-theme-color);
+  background-color: var(--highlight-color-1);
   color: var(--inverse-text-color);
   padding: 2rem 0;
 }
