@@ -257,7 +257,7 @@
 
 /* Experience section */
 .experience {
-  background-color: var(--highlight-color-2);
+  background-color: var(--highlight-color-1);
   color: var(--inverse-text-color);
   padding: 2rem 0;
 }
@@ -291,7 +291,7 @@
 }
 
 .experience__date {
-  color: var(--highlight-color-1);
+  color: var(--highlight-color-2);
   margin: 0;
 }
 
@@ -312,6 +312,8 @@
 }
 
 .experience__activity {
+  font-weight: 300;
+  line-height: 1.5rem;
   list-style: square;
 }
 
