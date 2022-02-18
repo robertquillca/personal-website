@@ -502,7 +502,7 @@
 
 /* CONTACT SECTION */
 .contact {
-  background-color: var(--code-color);
+  background-color: var(--highlight-color-1);
   color: var(--inverse-text-color);
   text-align: center;
   padding: 2rem 0;
