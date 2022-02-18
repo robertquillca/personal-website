@@ -619,13 +619,14 @@
 .footer-nav__credits {
   text-align: center;
   font-size: .8rem;
+  font-weight: 350;
   margin: 0;
   padding-top: .5rem;
   box-shadow: 0 -.25rem .25rem -.25rem var(--theme-color);
 }
 
 .footer-nav__credits-author {
-  color: var(--highlight-color-1);
+  color: var(--highlight-color-2);
   text-decoration: none;
 }
 
