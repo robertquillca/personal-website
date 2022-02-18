@@ -539,7 +539,6 @@
   transition: all .5s;
 }
 
-
 .contact__form-input:invalid {
   box-shadow: 0 0 0.5rem 0 var(--highlight-color-2);
 }
