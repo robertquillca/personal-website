@@ -49,14 +49,22 @@
 
 .header-nav__menu-icon {
   font-size: 2rem;
+  align-items: center;
+  width: 2rem;
   color: var(--inverse-theme-color);
-  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  /* cursor: pointer; */
   transition: all 0.5s;
 }
 
 .header-nav__menu-icon:hover {
   font-size: 2.5rem;
   filter: brightness(250%);
+}
+
+.header-nav__icon {
+  width: 100%;
 }
 
 .header-nav__menu-checkbox {
