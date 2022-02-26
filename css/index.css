@@ -646,6 +646,11 @@
     color: var(--text-color);
   }
 
+  .header-nav__button-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .profile-container {
     display: flex;
     align-items: center;
