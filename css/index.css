@@ -253,11 +253,13 @@
 }
 
 .profile__image-container:hover {
-  box-shadow: 0 0 0 0.25rem var(--highlight-color-1);
-}
+  box-shadow: 0 0 0 0.45rem var(--highlight-color-1);
+  transform: scale(1.1) skew(0.25deg);
+} 
 
 .profile__image {
   width: 100%;
+  color: #5e5ce6;
 }
 
 /* Experience section */
@@ -504,7 +506,7 @@
   transform: scale(1.25);
 }
 
-/* CONTACT SECTION */
+
 .contact {
   background-color: var(--highlight-color-1);
   color: var(--inverse-text-color);
@@ -534,6 +536,7 @@
 
 .contact__form-input {
   border: 0.25rem solid var(--code-color);
+  background-color: #f8f8f8;
   border-radius: 0.7rem;
   padding: 1rem;
   outline: none;
@@ -541,15 +544,19 @@
 }
 
 .contact__form-input:invalid {
-  box-shadow: 0 0 0.5rem 0 var(--highlight-color-2);
+  box-shadow: 0 0 0.5rem 0 var(--inverse-text-color);
+}
+
+.contact__form-input:valid {
+  border: 0.25 solid var(--button-color);
 }
 
 .contact__form-input:hover {
-  border: 0.25rem dashed var(--highlight-color-2);
+  background-color: #e7e7e7;
 }
 
 .contact__form-input:focus {
-  border: 0.25rem solid var(--code-color);
+  border:ñ;
 }
 
 .contact__form-input::placeholder {
@@ -573,7 +580,6 @@
   background-color: var(--theme-color);
 }
 
-/* Footer section  */
 .footer {
   background-color: var(--highlight-color-1);
   color: var(--inverse-text-color);
